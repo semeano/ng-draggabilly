@@ -16,6 +16,10 @@ The other is that it doesn't use $rootScope to emit drag and drop events. This w
 
 Add the attribute directive *ng-draggabilly* to the element, set an object with the options and another with the events.
 
+Add dependency:
+
+    angular.module('yourApp', ['ngDraggabilly']);
+
 View:
 
     <div ng-draggabilly options="opts" events="evts"></div>
