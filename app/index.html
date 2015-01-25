@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title></title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Don't forget to set your site up: http://google.com/webmasters -->
+		<meta name="google-site-verification" content="" />
+		
+		<!-- Who owns the content of this site? -->
+		<meta name="Copyright" content="" />
+		
+		<!--  Mobile Viewport
+		http://j.mp/mobileviewport & http://davidbcalhoun.com/2010/viewport-metatag
+		device-width : Occupy full width of the screen in its current orientation
+		initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+		maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width (wrong for most sites)
+		-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Use Iconifyer to generate all the favicons and touch icons you need: http://iconifier.net -->
+		<link rel="shortcut icon" href="favicon.ico" />
+
+		<!-- Vendor CSS -->
+    <!-- build:css(.tmp) styles/vendor.css -->
+    <!-- endbuild -->
+
+    <!-- Custom CSS -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/demo.css">
+    <!-- endbuild -->
+
+  </head>
+  <body ng-app="ngDraggabillyDemo" ng-cloak>
+
+    <!--[if lte IE 9]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div ng-controller="ngDraggabillyDemoCtrl">
+
+			<div ng-draggabilly class="draggabilly simple">
+				<p>Simple drag-and-drop</p>
+			</div>
+
+			<div ng-draggabilly class="draggabilly axis-x" options="xfixed">
+				<p>Fixed on X axis</p>
+			</div>
+
+			<div ng-draggabilly class="draggabilly axis-y" options="yfixed">
+				<p>Fixed on Y axis</p>
+			</div>
+
+			<div class="draggabilly container">
+				<div ng-draggabilly class="draggabilly contained" options="contained">
+					<p>Inside container</p>
+				</div>
+			</div>
+
+			<div ng-draggabilly class="draggabilly grid" options="grid">
+				<p>Snap to grid</p>
+			</div>
+
+			<div ng-draggabilly class="draggabilly handle" options="handle">
+				<div class="handle-zone"></div>
+				<p>With an handle</p>
+			</div>
+
+			<div id="events-console"></div>
+			<div ng-draggabilly class="draggabilly events" events="events">
+				<p>Bind events</p>
+			</div>
+
+    </div>
+
+
+    <!-- build:js(.) scripts/oldieshim.js -->
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/classie/classie.js"></script>
+    <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="bower_components/eventie/eventie.js"></script>
+    <script src="bower_components/get-style-property/get-style-property.js"></script>
+    <script src="bower_components/get-size/get-size.js"></script>
+    <script src="bower_components/draggabilly/draggabilly.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/ngdraggabilly.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- endbuild -->
+
+	</body>
+</html>
