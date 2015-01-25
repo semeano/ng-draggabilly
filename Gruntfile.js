@@ -325,7 +325,7 @@ module.exports = function (grunt) {
       	expand: true,
         dot: true,
         cwd: '<%= yeoman.app %>/scripts',
-    		src: 'ngdraggabilly.js',
+    		src: 'ng-draggabilly.js',
         dest: 'src'
       },
       styles: {

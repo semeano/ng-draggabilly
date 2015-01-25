@@ -20,6 +20,10 @@ Add dependency:
 
     angular.module('yourApp', ['ngDraggabilly']);
 
+Add to index.html:
+
+    <script src="bower_components/ng-draggabilly/src/ng-draggabilly.js"></script>
+
 View:
 
     <div ng-draggabilly options="opts" events="evts"></div>
