@@ -4,6 +4,7 @@
   "authors": [
     "Pedro Semeano <semeano@gmail.com>"
   ],
+  "homepage": "https://github.com/semeano/ng-draggabilly",
   "description": "Angular drag and drop directive. Made with Draggabilly.",
   "main": "src/ngdraggabilly.js",
   "keywords": [
