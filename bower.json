@@ -9,8 +9,9 @@
   "main": "src/ngdraggabilly.js",
   "keywords": [
     "drag and drop",
-    "drag & drop",
-    "drag'n'drop",
+    "drag drop",
+    "drag",
+    "drop",
     "dnd",
     "Draggabilly",
     "angular"
