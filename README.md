@@ -40,4 +40,4 @@ Controller:
 
 ###Demo
 
-[Here's](https://semeano.github.io/ng-draggabilly) a demo with many draggable elements with different options.# ng-draggabilly
+[Here's](https://semeano.github.io/ng-draggabilly) a demo with many draggable elements with different options.
