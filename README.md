@@ -18,7 +18,7 @@ Add the attribute directive *ng-draggabilly* to the element, set an object with 
 
 Add dependency:
 
-    angular.module('yourApp', ['ngDraggabilly']);
+    angular.module('yourApp', ['ng-draggabilly']);
 
 Add to index.html:
 
