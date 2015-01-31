@@ -2,9 +2,9 @@
 
 	'use strict';
 
-	angular.module('ngDraggabilly', [])
+	angular.module('ng-draggabilly', [])
 
-		.directive('ngDraggabilly', function () {
+		.directive('ng-draggabilly', function () {
 
 			// Linker function
 			function linker(scope, element) {

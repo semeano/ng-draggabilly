@@ -1,6 +1,6 @@
 {
-  "name": "hightide",
-  "version": "0.0.0",
+  "name": "ng-draggabilly",
+  "version": "0.0.2",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
