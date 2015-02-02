@@ -2,7 +2,7 @@
 
 	'use strict';
 
-	var dependencies = ['ngDraggabilly'];
+	var dependencies = ['ng-draggabilly'];
 
 	angular.module('ngDraggabillyDemo', dependencies)
 
