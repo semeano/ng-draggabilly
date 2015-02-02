@@ -4,7 +4,7 @@
 
 	angular.module('ng-draggabilly', [])
 
-		.directive('ng-draggabilly', function () {
+		.directive('ngDraggabilly', function () {
 
 			// Linker function
 			function linker(scope, element) {
